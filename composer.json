@@ -1,0 +1,30 @@
+{
+    "name": "clesson-de/silverstripe-pdf-templates",
+    "description": "PDF template management for Silverstripe CMS. Define page layouts with margins, backgrounds and font colours, then generate PDFs via FPDF.",
+    "type": "silverstripe-vendormodule",
+    "license": "BSD-3-Clause",
+    "keywords": ["silverstripe", "pdf", "fpdf", "templates"],
+    "authors": [
+        {
+            "name": "Kai Feldmaier",
+            "email": "kai.feldmaier@clesson.de",
+            "homepage": "https://clesson.de"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "ext-iconv": "*",
+        "silverstripe/framework": "^6",
+        "silverstripe/assets": "^3",
+        "silverstripe/asset-admin": "^3",
+        "tecnickcom/tcpdf": "^6",
+        "symbiote/silverstripe-gridfieldextensions": "^4 | ^5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Clesson\\Silverstripe\\PdfTemplates\\": "src/"
+        }
+    }
+}
+
+

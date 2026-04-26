@@ -1,0 +1,69 @@
+en:
+  Clesson\Silverstripe\PdfTemplates\Common:
+    ID: 'ID'
+    CREATED: 'Created'
+    LAST_EDITED: 'Last edited'
+
+  Clesson\Silverstripe\PdfTemplates\Constants\PdfPageType:
+    LEFT: 'Left (hole-punch left)'
+    RIGHT: 'Right (hole-punch right)'
+    COVER: 'Cover page'
+
+  Clesson\Silverstripe\PdfTemplates\Extensions\SiteConfigExtension:
+    TAB_PDF_TEMPLATES: 'PDF Templates'
+    PDF_TEMPLATES: 'PDF templates'
+
+  Clesson\Silverstripe\PdfTemplates\Helpers\PdfSvgPreviewHelper:
+    MARGIN_TOP: 'T'
+    MARGIN_BOTTOM: 'B'
+    MARGIN_LEFT: 'L'
+    MARGIN_RIGHT: 'R'
+
+  Clesson\Silverstripe\PdfTemplates\Models\PdfTemplate:
+    SINGULARNAME: 'PDF template'
+    PLURALNAME: 'PDF templates'
+    NAME: 'Name'
+    UKEY: 'Unique key'
+    UKEY_DESCRIPTION: 'Auto-generated from the name. Allowed characters: uppercase letters (A–Z), digits (0–9), hyphens (-) and underscores (_).'
+    UKEY_INVALID_CHARS: 'The unique key may only contain uppercase letters (A–Z), digits (0–9), hyphens (-) and underscores (_).'
+    UKEY_NOT_UNIQUE: 'The unique key "{key}" is already in use.'
+    REQUIRES_LEFT_PAGE: 'The template must contain at least one page of type "{type}".'
+    DESCRIPTION: 'Description'
+    PAGE_SIZE: 'Page size (mm)'
+    PAGES: 'Pages'
+
+  Clesson\Silverstripe\PdfTemplates\Forms\RectSizeField:
+    LABEL_WIDTH: 'Width'
+    LABEL_HEIGHT: 'Height'
+    LABEL_PRESET: 'Quick select'
+    CHOOSE_PRESET: 'Choose preset size'
+    INVALID_WIDTH: 'Width must be greater than zero.'
+    INVALID_HEIGHT: 'Height must be greater than zero.'
+
+  Clesson\Silverstripe\PdfTemplates\Forms\GridField\GridFieldTestPdfAction:
+    ACTION_TEST: 'Test PDF'
+
+  Clesson\Silverstripe\PdfTemplates\Forms\RgbaField:
+    CHANNEL_R: 'R'
+    CHANNEL_G: 'G'
+    CHANNEL_B: 'B'
+    CHANNEL_A: 'A'
+
+  Clesson\Silverstripe\PdfTemplates\Models\PdfTemplatePage:
+    SINGULARNAME: 'Page'
+    PLURALNAME: 'Pages'
+    TAB_APPEARANCE: 'Appearance'
+    PAGE_TYPE: 'Page type'
+    MARGIN_TOP: 'Margin top (mm)'
+    MARGIN_RIGHT: 'Margin right (mm)'
+    MARGIN_BOTTOM: 'Margin bottom (mm)'
+    MARGIN_LEFT: 'Margin left (mm)'
+    FONT_SIZE: 'Font size (pt)'
+    FONT_COLOR: 'Font colour (R, G, B, A)'
+    BACKGROUND_PDF: 'Background PDF'
+    BACKGROUND_PDF_DESCRIPTION: 'Optional PDF file used as a background layer for this page.'
+    PREVIEW_FILE: 'Preview PDF'
+    PDF_PREVIEW: 'PDF preview'
+    PREVIEW_AFTER_SAVE: 'PDF preview available after first save.'
+    SORT: 'Sort order'
+

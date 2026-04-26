@@ -1,0 +1,69 @@
+de:
+  Clesson\Silverstripe\PdfTemplates\Common:
+    ID: 'ID'
+    CREATED: 'Erstellt'
+    LAST_EDITED: 'Zuletzt geändert'
+
+  Clesson\Silverstripe\PdfTemplates\Constants\PdfPageType:
+    LEFT: 'Links (Lochrand links)'
+    RIGHT: 'Rechts (Lochrand rechts)'
+    COVER: 'Deckblatt'
+
+  Clesson\Silverstripe\PdfTemplates\Extensions\SiteConfigExtension:
+    TAB_PDF_TEMPLATES: 'PDF-Vorlagen'
+    PDF_TEMPLATES: 'PDF-Vorlagen'
+
+  Clesson\Silverstripe\PdfTemplates\Helpers\PdfSvgPreviewHelper:
+    MARGIN_TOP: 'O'
+    MARGIN_BOTTOM: 'U'
+    MARGIN_LEFT: 'L'
+    MARGIN_RIGHT: 'R'
+
+  Clesson\Silverstripe\PdfTemplates\Models\PdfTemplate:
+    SINGULARNAME: 'PDF-Vorlage'
+    PLURALNAME: 'PDF-Vorlagen'
+    NAME: 'Name'
+    UKEY: 'Eindeutiger Schlüssel'
+    UKEY_DESCRIPTION: 'Wird automatisch aus dem Namen generiert. Erlaubte Zeichen: Großbuchstaben (A–Z), Ziffern (0–9), Bindestriche (-) und Unterstriche (_).'
+    UKEY_INVALID_CHARS: 'Der eindeutige Schlüssel darf nur Großbuchstaben (A–Z), Ziffern (0–9), Bindestriche (-) und Unterstriche (_) enthalten.'
+    UKEY_NOT_UNIQUE: 'Der eindeutige Schlüssel „{key}" wird bereits verwendet.'
+    REQUIRES_LEFT_PAGE: 'Die Vorlage muss mindestens eine Seite vom Typ „{type}" enthalten.'
+    DESCRIPTION: 'Beschreibung'
+    PAGE_SIZE: 'Seitengröße (mm)'
+    PAGES: 'Seiten'
+
+  Clesson\Silverstripe\PdfTemplates\Forms\RectSizeField:
+    LABEL_WIDTH: 'Breite'
+    LABEL_HEIGHT: 'Höhe'
+    LABEL_PRESET: 'Schnellauswahl'
+    CHOOSE_PRESET: 'Vorgabengröße wählen'
+    INVALID_WIDTH: 'Die Breite muss größer als null sein.'
+    INVALID_HEIGHT: 'Die Höhe muss größer als null sein.'
+
+  Clesson\Silverstripe\PdfTemplates\Forms\GridField\GridFieldTestPdfAction:
+    ACTION_TEST: 'Test-PDF erstellen'
+
+  Clesson\Silverstripe\PdfTemplates\Forms\RgbaField:
+    CHANNEL_R: 'R'
+    CHANNEL_G: 'G'
+    CHANNEL_B: 'B'
+    CHANNEL_A: 'A'
+
+  Clesson\Silverstripe\PdfTemplates\Models\PdfTemplatePage:
+    SINGULARNAME: 'Seite'
+    PLURALNAME: 'Seiten'
+    TAB_APPEARANCE: 'Erscheinungsbild'
+    PAGE_TYPE: 'Seitentyp'
+    MARGIN_TOP: 'Rand oben (mm)'
+    MARGIN_RIGHT: 'Rand rechts (mm)'
+    MARGIN_BOTTOM: 'Rand unten (mm)'
+    MARGIN_LEFT: 'Rand links (mm)'
+    FONT_SIZE: 'Schriftgröße (pt)'
+    FONT_COLOR: 'Schriftfarbe (R, G, B, A)'
+    BACKGROUND_PDF: 'Hintergrund-PDF'
+    BACKGROUND_PDF_DESCRIPTION: 'Optionale PDF-Datei, die als Hintergrundebene für diese Seite verwendet wird.'
+    PREVIEW_FILE: 'Vorschau-PDF'
+    PDF_PREVIEW: 'PDF-Vorschau'
+    PREVIEW_AFTER_SAVE: 'PDF-Vorschau verfügbar nach dem ersten Speichern.'
+    SORT: 'Sortierreihenfolge'
+

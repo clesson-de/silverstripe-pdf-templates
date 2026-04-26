@@ -1,0 +1,9 @@
+---
+Name: pdftemplates-routes
+After:
+  - '#rootroutes'
+---
+SilverStripe\Control\Director:
+  rules:
+    'admin/pdf-templates': 'Clesson\Silverstripe\PdfTemplates\Controllers\PdfTemplateTestController'
+

@@ -1,0 +1,6 @@
+---
+Name: pdftemplates-config
+Before:
+  - '#pdftemplates-extensions'
+---
+

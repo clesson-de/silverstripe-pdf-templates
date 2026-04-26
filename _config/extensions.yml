@@ -1,0 +1,7 @@
+---
+Name: pdftemplates-extensions
+---
+SilverStripe\SiteConfig\SiteConfig:
+  extensions:
+    - Clesson\Silverstripe\PdfTemplates\Extensions\SiteConfigExtension
+
