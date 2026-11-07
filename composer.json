@@ -24,7 +24,14 @@
         "psr-4": {
             "Clesson\\Silverstripe\\PdfTemplates\\": "src/"
         }
+    },
+    "require-dev": {
+        "clesson-de/silverstripe-codeguard": "^0.0.3"
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "silverstripe/vendor-plugin": true
+        }
     }
 }
-
-

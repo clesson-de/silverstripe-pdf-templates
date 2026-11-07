@@ -25,12 +25,26 @@ Content blocks accept plain text or **HTML** (h1–h6, p, b, i, ul, table, …).
 
 ## Developer Documentation
 
+### Requirements
+
+- PHP 8.1 or newer
+- SilverStripe 6 (CMS 6.1; framework `^6`)
+- PHP `iconv` extension
+
 ### Installation
 
 ```bash
 composer require clesson-de/silverstripe-pdf-templates
 php vendor/bin/sake dev/build flush=all
 ```
+
+### Configuration
+
+The module configuration in `_config/` is loaded automatically by SilverStripe.
+After installation, run `dev/build` to apply the database changes; no separate
+module configuration is required.
+
+### Usage
 
 ### Generating a PDF
 
@@ -51,6 +65,11 @@ You can also pass a `PdfTemplate` model instance directly:
 $template = PdfTemplate::get()->find('Ukey', 'MY_TEMPLATE');
 $creator  = PdfCreator::create($template);
 ```
+
+### License
+
+This module is licensed under the BSD 3-Clause License. See [LICENSE](LICENSE)
+for the full license text.
 
 ### Page ordering
 
@@ -110,4 +129,3 @@ margin boundaries with mm labels.
 ### Reordering pages
 
 Drag and drop the rows in the Pages GridField to change the sort order.
-
